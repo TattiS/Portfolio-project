@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,400&family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,300;0,400;0,500;1,400&family=Open+Sans:wght@500&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --heading-font: "Merriweather";
-  --plain-text-font: "Nunito";
+  --heading-font: "Playfair Display", serif;
+  --plain-text-font: "Poppins", sans-serif;
   --heading-color: #0092ca;
   --text-color-light: #3e3939;
   --text-color-dark: #222831;
@@ -15,13 +14,36 @@ body {
 
 h1 {
   font-family: var(--heading-font);
+  font-weight: bold;
   color: var(--heading-color);
 }
 p {
   font-family: var(--plain-text-font);
+  font-weight: normal;
   color: var(--text-color-light);
 }
 .hero {
-  background-color: var(--background-color);
+  background: var(--background-color);
   text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--text-color-dark);
+}
+.hero h2 {
+  font-family: var(--plain-text-font);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+.btn-branding {
+  background: var(--heading-color);
+  border-radius: 4px;
+  color: var(--background-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
