@@ -12,11 +12,12 @@ body {
   font-family: var(--plain-text-font);
 }
 
-h1,
 h1 {
   font-family: var(--heading-font);
   font-weight: bold;
   color: var(--heading-color);
+  font-size: 96px;
+  line-height: 1.5;
 }
 p {
   font-family: var(--plain-text-font);
@@ -64,4 +65,21 @@ h4 {
 }
 .project-description {
   padding: 40px 20px;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .hero {
+    padding: 40px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: justify;
+  }
 }
