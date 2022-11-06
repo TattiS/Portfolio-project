@@ -8,10 +8,11 @@
   --text-color-light: #3e3939;
   --text-color-dark: #222831;
 }
+body {
+  font-family: var(--plain-text-font);
+}
 
-h1,
-h2,
-h3 {
+h1 {
   font-family: var(--heading-font);
   color: var(--heading-color);
 }
