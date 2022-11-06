@@ -7,6 +7,7 @@
   --heading-color: #0092ca;
   --text-color-light: #3e3939;
   --text-color-dark: #222831;
+  --background-color: #eeeeee;
 }
 body {
   font-family: var(--plain-text-font);
@@ -19,4 +20,8 @@ h1 {
 p {
   font-family: var(--plain-text-font);
   color: var(--text-color-light);
+}
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
 }
