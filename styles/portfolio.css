@@ -68,6 +68,24 @@ h4 {
   line-height: 1.5;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--plain-text-font);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -81,5 +99,9 @@ h4 {
   .project-description {
     padding: 0;
     text-align: justify;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
