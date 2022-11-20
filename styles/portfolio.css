@@ -22,8 +22,10 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
+
 h4 {
-  font-size: 48px;
+  font-size: 18px;
+  font-family: var(--heading-font);
 }
 p {
   font-family: var(--plain-text-font);
@@ -135,7 +137,7 @@ footer {
 }
 footer .contact-box {
   background-color: var(--background-color);
-  padding: 30px 60px;
+  padding: 30px 40px;
   border-radius: 10px;
 }
 footer .contact-box p {
