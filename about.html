@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Tetyana is an front-end engineer based in Ukraine. She is always happy to help you with your web site.">
   <title>Portfolio - About</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -19,20 +21,71 @@
 </head>
 
 <body>
+  <nav class="d-flex justify-content-between">
+    <a href="/" title="Homepage">
+      <img class="logo d-none d-md-block" src="images/A-logo.png" alt="logo">
+      <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="logo-small">
+    </a>
+    <ul>
+      <li><a href="/" title="Homepage">Home</a></li>
+      <li class="active"><a href="/about.html" title="About Tetyana">About</a>
+      </li>
+      <li><a href="/works.html" title="Tetyana's projects">Works</a> </li>
+      <li><a href="/contacts.html" title="Contact Tetyana">Contacts</a> </li>
+    </ul>
+  </nav>
   <div class="content-container container">
     <div class="row">
       <div class="col-lg-6">
         <div class="content">
           <h1 class="mb-5">Hi, I'm Tetyana Solyanyk</h1>
           <h2 class="mb-4">Front-end developer based in Ukraine</h2>
-          <p class="mb-4">Something about me)</p>
+          <p class="mb-4">Something about me)
+            here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form,
+            by injected humour, or randomised words which don't look even slightly believable. If you are going to use a
+            passage of
+            Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the
+            Lorem
+            Ipsum
+            generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
+            generator
+            on the
+            Internet.
+          </p>
           <a class="btn-branding" href="/works.html">See my project</a>
         </div>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid shadow img-thumbnail rounded-3" src="images/stranger.jpg" alt="portrait">
+        <img id="portrait" class="img-fluid shadow img-thumbnail rounded-3" src="images/stranger.jpg" alt="portrait">
       </div>
     </div>
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="/contacts.html" class="btn btn-branding" title="Contact Tetyana">Contact me</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a class="email-link" href="mailto:tanyas81@gmail.com" title="Tetyana's email">tanyas81@gmail.com</a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/TattiS/Portfolio-project.git" target="_blank" title="Github profile"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="http://facebook.com" target="_blank" title="Facebook profile"><i
+            class="fa-brands fa-facebook-f"></i></a>
+        <a href="http://instagram.com" target="_blank" title="Instagram profile"><i
+            class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="text-center mt-4">
+        This project was coded by Tetyana Solyanyk, it's <a href="https://github.com/TattiS/Portfolio-project.git"
+          target="_blank" title="project on the Github">open-sourced</a>
+      </p>
+    </footer>
   </div>
 </body>
 

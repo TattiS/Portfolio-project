@@ -13,7 +13,6 @@ body {
 }
 a {
   text-decoration: none;
-  font-style: ;
 }
 h1 {
   font-family: var(--heading-font);
@@ -23,8 +22,8 @@ h1 {
   line-height: 1.5;
 }
 
-h4 {
-  font-size: 18px;
+h3 {
+  font-size: 48px;
   font-family: var(--heading-font);
 }
 p {
@@ -65,10 +64,12 @@ p {
   line-height: 25px;
   padding: 6px 20px;
 }
-h2,
-h3 {
+h2 {
   font-family: var(--heading-font);
   margin-top: 25px;
+}
+h3 {
+  font-family: var(--heading-font);
 }
 .project-description {
   padding: 40px 20px;
@@ -76,7 +77,7 @@ h3 {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -109,10 +110,11 @@ nav {
 }
 .logo {
   max-height: 40px;
+  margin-left: 15px;
 }
 nav ul {
   padding: 0;
-  margin: 0;
+  margin: 0 15px 0 0;
 }
 nav li {
   display: inline;
@@ -134,6 +136,9 @@ nav li.active a:hover {
 }
 footer {
   margin: 60px 0;
+}
+footer p {
+  font-size: 14px;
 }
 footer .contact-box {
   background-color: var(--background-color);
@@ -165,12 +170,21 @@ footer .social-links a:hover {
   color: var(--background-color);
   background-color: var(--heading-color);
 }
+footer .btn {
+  padding: 30px;
+}
+#portrait {
+  max-width: 410px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
   }
   h2 {
     font-size: 36px;
+  }
+  h3 {
+    font-size: 26px;
   }
   .hero {
     padding: 40px 20px;
@@ -182,5 +196,15 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  nav li {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  footer {
+    margin: 30px 0;
+  }
+  footer p {
+    font-size: 12px;
   }
 }
